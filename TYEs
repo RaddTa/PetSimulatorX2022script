@@ -6,7 +6,7 @@ local GameLibrary = require(game:GetService("ReplicatedStorage"):WaitForChild("F
 local Network = GameLibrary.Network
 local Run_Service = game:GetService("RunService")
 local rs = Run_Service.RenderStepped
-local CurrencyOrder = {"Tech Coins", "Fantasy Coins", "Coins", "Diamonds",}
+local CurrencyOrder = {"Tech Coins", "Fantasy Coins", "Coins", "Diamonds", "Halloween Candy", "Gingerbread",}
 
     local IMightKillMyselfCauseOfThis = {
         --Misc
@@ -299,6 +299,7 @@ EggsWindow:Button("Gamepasses", function()
     table.insert(main,18674298)
     table.insert(main,18674321)
 end)
+
 
 --Anti AFK stolen from infinite yield // the readily available old one :)
 local GC = getconnections or get_signal_cons
